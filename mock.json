@@ -1,0 +1,12 @@
+{
+  "mockUrl": [
+    {
+      "alias": hi,
+      "origurl": https://www.youtube.com/,
+    }
+    {
+      "alis": hey,
+      "origurl": https://www.bu.edu/,
+    }
+  ]
+}

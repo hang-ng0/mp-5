@@ -3,7 +3,7 @@ export default function RootLayout({children,}:Readonly<{children: React.ReactNo
   return(
       <html lang="en">
         <body>
-        {children}
+            {children}
         </body>
       </html>
   )
