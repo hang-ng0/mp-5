@@ -98,7 +98,7 @@ export default function HomePage(){
         try{
             const result = await createNewUrl(alias, url);
             if (!result.success) {
-                setErrorMessage(result.message);
+                setErrorMessage(result.message || "Something went wrong.");
                 return;
             }
             if (result.data){
