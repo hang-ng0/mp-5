@@ -97,7 +97,7 @@ export default function HomePage(){
         setSuccessMessage("");
         try{
             const result = await createNewUrl(alias, url);
-            const newShortUrl = `${window.location.origin}/${result.alias}`; //the window.location.origin gets the website's current domain
+            const newShortUrl = `${window.location.origin}/${result.data!.alias}`; //the window.location.origin gets the website's current domain
             setShortUrl(newShortUrl);
             setSuccessMessage("Your URL has been created!");
             console.log("result:", result);
